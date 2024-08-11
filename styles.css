@@ -1,0 +1,523 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+p {
+  line-height: 1.4;
+}
+.header {
+  display: flex;
+  background-color: #e81c74;
+  justify-content: center;
+  padding: 8px;
+  gap: 25px;
+  align-items: center;
+}
+.heading-1 {
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+.button-1 {
+  height: 50px;
+  width: 130px;
+  color: #e81c74;
+  background-color: white;
+  border: 1px solid #e81c74;
+  border-radius: 15px;
+  transition: 0.3s all;
+}
+.button-1:hover {
+  color: white;
+  background-color: #e81c74;
+  border: 1px solid white;
+  transform: scale(1.1);
+}
+.nav {
+  /* position: fixed; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding-top: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.nav-2 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-right: 5px;
+  position: relative;
+}
+
+.button-2 {
+  background-color: white;
+  color: gray;
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 30px;
+  width: 70px;
+  transition: 0.2s all;
+}
+.button-3 {
+  background-color: #e81c74;
+  color: rgb(255, 255, 255);
+  border: 1px solid #e81c74;
+  border-radius: 6px;
+  height: 30px;
+  width: 70px;
+  transition: 0.2s all;
+}
+.butn:hover {
+  transform: scale(1.1);
+}
+.lang {
+  display: flex;
+  gap: 5px;
+}
+.body-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding-left: 100px;
+}
+.innerbody-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  width: 660px;
+  border-radius: 15px;
+  gap: 19px;
+}
+.input-1 {
+  height: 30px;
+  width: 500px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  color: grey;
+  transition: 0.3s all;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.input-1:focus {
+  padding: 13px 12px;
+}
+.button-4 {
+  height: 45px;
+  width: 90px;
+  background-color: #e81c74;
+  color: white;
+  border: 1px solid #e81c74;
+  border-radius: 8px;
+  transition: 0.3s all;
+}
+.button-4:hover {
+  transform: translate(10px);
+}
+.cover-img {
+  height: 600px;
+  width: 900px;
+  margin-left: 20px;
+}
+.innerbody-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 30px;
+}
+h1 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-size: 40px;
+  font-style: normal;
+}
+
+.mainheading {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 10px;
+}
+.body-2 {
+  height: 250px;
+  margin-top: 10px;
+
+  text-align: center;
+}
+.mainheading-2 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding: 50px;
+}
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: black;
+  background-color: white;
+
+  padding: 0px 20px;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.body-3 {
+  background-image: url(./foodpandoooooooooooooooooooo.png);
+  background-size: cover;
+  height: 400px;
+}
+.innerbox-1 {
+  padding-top: 200px;
+  padding-left: 100px;
+}
+.box-1 h2 {
+  font-family: "Pacifico", cursive;
+}
+.button-5 {
+  height: 45px;
+  width: 90px;
+  background-color: #e81c74;
+  color: white;
+  border: 1px solid #e81c74;
+  border-radius: 8px;
+  transition: 0.3s all;
+}
+.button-5:hover {
+  transform: translate(10px);
+}
+.body-4 {
+  text-align: left;
+}
+.cityheading {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  /* padding-left: 150px; */
+  padding: 100px 150px;
+}
+.subbody-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0px 150px;
+  align-items: center;
+  gap: 30px 0px;
+  margin-top: -10px;
+}
+.city-karachi {
+  background-image: url(./Mazar_Quaid-e-Azam.jpg);
+}
+.city-islam {
+  background-image: url(islamabad.jpg);
+}
+.city-lahore {
+  background-image: url(./badshahi.jpg);
+}
+.city-multan {
+  background-image: url(./multan.jpg);
+}
+.city-peshawar {
+  background-image: url(./peshawar.jpg);
+}
+.city-quetta {
+  background-image: url(./quetta.jpg);
+}
+.city-sialkot {
+  background-image: url(./sialkotnew.jpg);
+}
+.city-abot {
+  background-image: url(./abotabad.jpg);
+}
+.city-bahawal {
+  background-image: url(./bahalpur.jpg);
+}
+.city-dera {
+  background-image: url(./deraa.jpg);
+}
+.city-rawal {
+  background-image: url(./rawal.jpg);
+}
+.city-faisal {
+  background-image: url(./faisal.jpg);
+}
+.city {
+  height: 200px;
+  width: 320px;
+  background-size: cover;
+  border-radius: 15px;
+  display: flex;
+  align-items: end;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.cities {
+  background-color: white;
+  width: fit-content;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 17px;
+  border-radius: 8px;
+  padding: 5px;
+}
+.city:hover {
+  height: 230px;
+  width: 340px;
+}
+.body-5 {
+  text-align: left;
+}
+.headingbody-5 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+.innererbody {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  width: 400px;
+}
+.qrcode {
+  font-size: 100px;
+}
+.body-6 {
+  background-color: #e81c74;
+  height: 300px;
+  width: 70%;
+  display: flex;
+  /* margin: auto; */
+  margin-top: 80px;
+  margin-left: 200px;
+  justify-content: center;
+  padding-top: 50px;
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 120px;
+}
+.mob-image {
+  height: 600px;
+  position: relative;
+  bottom: 200px;
+  left: 100px;
+}
+.heading-body6 {
+  color: white;
+  font-family: "Spinnaker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.para-body6 {
+  color: white;
+  font-family: "Spinnaker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
+.body-7heading h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  padding-left: 150px;
+  padding-top: 100px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.body-7 {
+  background-image: url(./officeepanda.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 200px;
+  width: 600px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: black;
+  background-color: white;
+  text-align: left;
+  padding: 5px 20px;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.heading-box2 {
+  font-family: "Pacifico", cursive;
+}
+.innerbox-2 {
+  padding-top: 250px;
+  padding-left: 100px;
+}
+.body-8 {
+  text-align: left;
+  padding: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.rest {
+  color: #e81c74;
+  cursor: pointer;
+  text-decoration: underline #e81c74;
+  transition: 0.3s;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.rest:hover {
+  font-size: 20px;
+  text-decoration: underline 3px #e81c74;
+}
+.body-8 p {
+  font-family: "Spinnaker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+.body-8 h3 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #e81c74;
+  font-size: 23px;
+}
+.body-8 h2 {
+  font-family: "Spinnaker", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+}
+.body-8 h2.question {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #e81c74;
+  font-size: 30px;
+}
+.footer {
+  border-top: 1px solid grey;
+  margin-top: 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-icon {
+  font-size: 30px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.footer-icon:hover {
+  font-size: 40px;
+  background: linear-gradient(45deg, #147ffa, #1aced4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logos {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  margin-right: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.tick {
+  color: #e81c74;
+}
+@media (max-width:1400px) {
+
+  .cover-img {
+  height: 300px;
+  width: 600px;
+  margin-left: 20px;
+}
+h1 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-size: 30px;
+  font-style: normal;
+}
+.subbody-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  padding: 0px 100px;
+  align-items: center;
+  gap: 20px 0px;
+  margin-top: -10px;
+}
+.city {
+  height: 150px;
+  width: 270px;}
+
+  .city:hover {
+    height: 170px;
+    width: 290px;
+  }
+  .mob-image {
+    height: 250px;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+  }
+  .body-6 {
+    background-color: #e81c74;
+    height: 200px;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 100px;
+    justify-content: center;
+    padding-top:25px;
+    border-radius: 12px;
+    margin: auto;
+      margin-top: 60px;}
+      .heading-body6{
+        font-size: 20px;
+      }
+      .qrcode {
+        font-size: 60px;
+      }
+      .para-body6{
+        font-size: 15px;
+      }
+      .body-7heading{
+        font-size: 30px;
+        font-weight: 400;
+      }
+}
